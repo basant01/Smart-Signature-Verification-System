@@ -11,13 +11,15 @@ A Web App uisng Django to recognize two signature using image processing.The pro
 ***After Uploading the image so result is being processed so page will show a response that page is loading***
 ![Image of Result Processing](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture3.PNG)
 
+
 # Input
+
 
 ***Reference Image Uploaded***
 ![Image of Reference Image](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture9.PNG)
 
 ***Image to be Compared uploaded***                
-![Image of Image to be Compared](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/WebApp%20Images/Capture10.PNG)
+![Image of Image to be Compared](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture10.PNG)
 
 # OUTPUT
 
