@@ -17,14 +17,14 @@ A Web App uisng Django to recognize two signature using image processing.The pro
 ![Image of Reference Image](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture9.PNG)
 
 ***Image to be Compared uploaded***                
-![Image of Image to be Compared](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture10.PNG)
+![Image of Image to be Compared](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/WebApp%20Images/Capture10.PNG)
 
 # OUTPUT
 
 ***Graph showing is how its to extract features like corners and curves out of the both of the image***
 ![Image of Graph](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture4.PNG)
 
-***graphing showing how it matching all the extracted features of both of the images using matchmaker algorithm***
+***Graph showing how it matching all the extracted features of both of the images using matchmaker algorithm***
 ![Image of Graph](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture5.PNG)
 
 ## Final Result 
