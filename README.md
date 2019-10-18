@@ -13,8 +13,6 @@ A Web App uisng Django to recognize two signature using image processing.The pro
 
 
 # Input
-
-
 ***Reference Image Uploaded***
 ![Image of Reference Image](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture9.PNG)
 
