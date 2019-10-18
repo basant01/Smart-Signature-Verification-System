@@ -3,13 +3,22 @@
 A Web App uisng Django to recognize two signature using image processing.The process involves taking two signature made by the same individual .The objective of signature verification systems is to discriminate if a given signature is genuine (produced by the claimed individual), or a forgery (produced by an impostor).
 After uploading below subprocesses will start.
 
-Preprocessing –  With the use of Contrast-limited adaptive histogram equalization (CLAHE) to properly equalize the histogram and after that reading that image into grayscale.
-Segmenting Strokes Pixels – To find and segment out the strokes in the signature but before that, the image has to be normalized.
-Finding Orientation & its Frequency –  To find the orientation of each and every pixel of the normalized image and estimate the signature stroke across the signature image it is done by calculating the frequency of strokes for each chunk of the image i.e. distributing the signature image into a fixed block size.
-Image Enhancement Normalizing –  To enhance the image by using oriented filters
-Proper Thresholding – The proper thresholding and normalize the image between 0 and 1 and thinning the thresholded signature image and removing irrelevant points and noise in the image.
-Features extraction – To extract features like corners and curves out of the image
+***Preprocessing*** –  With the use of Contrast-limited adaptive histogram equalization (CLAHE) to properly equalize the histogram and after that reading that image into grayscale.
 
+***Segmenting Strokes Pixels*** – To find and segment out the strokes in the signature but before that, the image has to be normalized.
+
+***Finding Orientation & its Frequency*** –  To find the orientation of each and every pixel of the normalized image and estimate the signature stroke across the signature image it is done by calculating the frequency of strokes for each chunk of the image i.e. distributing the signature image into a fixed block size.
+
+***Image Enhancement Normalizing*** –  To enhance the image by using oriented filters
+
+***Proper Thresholding*** – The proper thresholding and normalize the image between 0 and 1 and thinning the thresholded signature image and removing irrelevant points and noise in the image.
+
+***Features extraction*** – To extract features like corners and curves out of the image
+
+After extracting the features we will use ORB (Oriented FAST and Rotated BRIEF) to get the descriptors because of their several advantages over SIFT and SURF here.
+
+***In the final, we will use any feature matching algorithm. Here in this project, we are using brute-force matcher algorithm.***
+After this, we define the signature is matched or not by giving it proper thresholding depending upon the input image(if we put constraints on input image this threshold can be generalized).
 
 ***WEB APP FRONT END LOOK*** where user can upload two images of signature of same individual to be compared
 ![Image of Web App Front End Look](https://github.com/basant01/Smart-Signature-Verification-System/blob/master/Web-App%20Images/Capture.PNG)
